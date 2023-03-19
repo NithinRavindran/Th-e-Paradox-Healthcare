@@ -4,6 +4,7 @@ body{
 
 .logo{
     max-height: 50px;
+
 }
 .nextgen{
     height: 500px;
@@ -58,9 +59,10 @@ body{
 }
 
 .watchapp{
+    color: white;
     height:50px;
     border-radius: 25px;
-    background-color:rgba(234, 111, 11, 0.793)
+    background-color:rgb(9, 1, 36)
 }
 
 ul{
@@ -70,4 +72,21 @@ ul{
 .a{
     text-decoration-line: none;
     color: black;
+}
+
+.home:hover{
+    transform: scale(1.2);
+    text-decoration-line: underline;
+}
+
+.user:hover{
+    transform: scale(1.2);
+}
+
+.getstarted{
+    height: 50px;
+    background-color:  rgba(3, 137, 255, 0.838);
+     color: white; 
+     font-size: 20px; 
+     border-radius: 25px;
 }
