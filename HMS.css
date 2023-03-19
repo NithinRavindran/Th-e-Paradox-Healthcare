@@ -1,0 +1,73 @@
+body{
+    overflow-x: hidden
+}
+
+.logo{
+    max-height: 50px;
+}
+.nextgen{
+    height: 500px;
+    width: 30%;
+    border-radius: 30px;
+    background-color: beige;
+}
+
+@media (max-width:916px){
+    .nextgen{
+        width:100%;
+        z-index: 0;
+    } 
+    .nextgentextone{
+        color: black;
+    }
+    .nextgenimg{
+        width: 100px;
+    }
+}
+
+
+.nextgenimg{
+    height: 50px;
+}
+
+
+.images{
+    height: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.integration{
+    background-color: rgba(3, 137, 255, 0.838); ;
+}
+.hmsimg{
+    border-radius: 30px;
+}
+
+.mobileapp{
+    background-color: #066bf09f;
+}
+.mobileappimg{
+    width: 95%;
+    margin-left: -10%;
+
+}
+
+.module{
+    font-size: 150%;
+}
+
+.watchapp{
+    height:50px;
+    border-radius: 25px;
+    background-color:rgba(234, 111, 11, 0.793)
+}
+
+ul{
+    list-style-type: none; ;
+}
+
+.a{
+    text-decoration-line: none;
+    color: black;
+}
