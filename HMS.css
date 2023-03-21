@@ -7,8 +7,6 @@ body{
 
 }
 .nextgen{
-    height: 500px;
-    width: 30%;
     border-radius: 30px;
     background-color: beige;
 }
@@ -19,13 +17,18 @@ body{
         z-index: 0;
     } 
     .nextgentextone{
+        font-size:15px;
         color: black;
     }
     .nextgenimg{
         width: 100px;
     }
 }
-
+@media (max-width:519px){
+    .enterprise{
+        color: white;
+    }
+}
 
 .nextgenimg{
     height: 50px;
@@ -87,6 +90,10 @@ ul{
     height: 50px;
     background-color:  rgba(3, 137, 255, 0.838);
      color: white; 
-     font-size: 20px; 
+     font-size: 15px; 
      border-radius: 25px;
+}
+
+.social:hover{
+    cursor: pointer;
 }
